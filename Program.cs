@@ -101,7 +101,7 @@ for (int i=0; i< result.Length; i++)
 
 
 
-/* int something (int start , int finish)
+ int something (int start , int finish)
  {
     int numberA = new Random().Next(start, finish);
     Console.WriteLine (numberA);
@@ -114,13 +114,5 @@ for (int i=0; i< result.Length; i++)
 
 int A = something (100, 999);
 Console.WriteLine (A);
-*/
 
-  Console.WriteLine ("Enter your number");
-    string number = Console.ReadLine ();
-        if (number.Length < 3){
-      Console.WriteLine ("there is no third number");
-    }
-    else {
-      Console.WriteLine (number[2]);
-    }
+
