@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\user\\Desktop\\June23\\June23.csproj": {}
+    "C:\\Users\\user\\Desktop\\23.06\\June23.csproj": {}
   },
   "projects": {
-    "C:\\Users\\user\\Desktop\\June23\\June23.csproj": {
+    "C:\\Users\\user\\Desktop\\23.06\\June23.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\user\\Desktop\\June23\\June23.csproj",
+        "projectUniqueName": "C:\\Users\\user\\Desktop\\23.06\\June23.csproj",
         "projectName": "June23",
-        "projectPath": "C:\\Users\\user\\Desktop\\June23\\June23.csproj",
+        "projectPath": "C:\\Users\\user\\Desktop\\23.06\\June23.csproj",
         "packagesPath": "C:\\Users\\user\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\user\\Desktop\\June23\\obj\\",
+        "outputPath": "C:\\Users\\user\\Desktop\\23.06\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\user\\AppData\\Roaming\\NuGet\\NuGet.Config"

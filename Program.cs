@@ -83,7 +83,7 @@ if (numberA % 2 == 0) {
     Console.WriteLine("нечетное");
 }
 */
-
+/*
 Console.WriteLine("введите число");
 int number = Convert.ToInt32(Console.ReadLine());
 int index = 0;
@@ -97,7 +97,30 @@ for (int i = 1; i <= number; i++)
 }
 for (int i=0; i< result.Length; i++)
  Console.WriteLine(result[i]);
+*/
 
 
 
- 
+/* int something (int start , int finish)
+ {
+    int numberA = new Random().Next(start, finish);
+    Console.WriteLine (numberA);
+    int thirdnumber = numberA % 10;
+    int firstnumber = numberA / 100; 
+    int result = firstnumber * 10 + thirdnumber;
+    return result;
+}
+
+
+int A = something (100, 999);
+Console.WriteLine (A);
+*/
+
+  Console.WriteLine ("Enter your number");
+    string number = Console.ReadLine ();
+        if (number.Length < 3){
+      Console.WriteLine ("there is no third number");
+    }
+    else {
+      Console.WriteLine (number[2]);
+    }
