@@ -21,25 +21,25 @@ if (numberA == numberB*numberB) {
 /* Console.WriteLine("введите номер дня недели");
 int numberA = Convert.ToInt32(Console.ReadLine());
 if (numberA == 1) {
-    Console.WriteLine ("Понедельник");
+    Console.WriteLine ("Нет");
 }
 if (numberA == 2) {
-    Console.WriteLine ("Вторник");
+    Console.WriteLine ("Нет");
 }
 if (numberA == 3) {
-    Console.WriteLine ("Среда");
+    Console.WriteLine ("Нет");
 }
 if (numberA == 4) {
-    Console.WriteLine ("Четверг");
+    Console.WriteLine ("Нет");
 }
 if (numberA == 5) {
-    Console.WriteLine ("Пятница");
+    Console.WriteLine ("Нет");
 }
 if (numberA == 6) {
-    Console.WriteLine ("Суббота");
+    Console.WriteLine ("Да");
 }
 if (numberA == 7) {
-    Console.WriteLine ("Воскресенье");
+    Console.WriteLine ("Да");
 }
 if (numberA > 7 || numberA < 1) {
     Console.WriteLine ("Ошибка");
@@ -101,7 +101,7 @@ for (int i=0; i< result.Length; i++)
 
 
 
- int something (int start , int finish)
+ /* int something (int start , int finish)
  {
     int numberA = new Random().Next(start, finish);
     Console.WriteLine (numberA);
@@ -114,5 +114,6 @@ for (int i=0; i< result.Length; i++)
 
 int A = something (100, 999);
 Console.WriteLine (A);
+*/ 
 
 
